@@ -42,6 +42,7 @@ def iniciar():
         else:
             label_tempo['font'] = 'Times 50 bold'
             temporaria = str(tempo)
+            
             h, m, s = map(int, temporaria.split(':'))
             h = int(h)
             m = int(m)
