@@ -36,7 +36,8 @@ entry_idade.grid(row=1, column=1, padx=10, pady=5)
 label_pais = Label(janela, width=10, height=2, text='Pais:',
                    font=('Ariel 10'), anchor='w')
 label_pais .grid(row=2, column=0, padx=10, pady=5, sticky=NSEW)
-entry_pais = Entry(janela, width=10, font=('Arial 10'), state='disabled')#state='disabled' desativa o entry
+# state='disabled' desativa o entry
+entry_pais = Entry(janela, width=10, font=('Arial 10'), state='disabled')
 entry_pais.grid(row=2, column=1, padx=10, pady=5)
 
 
